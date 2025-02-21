@@ -5,8 +5,10 @@ import { CgMenuRight } from "react-icons/cg";
 function Nav() {
 	return (
 		<div className="bg-zinc-950/50 h-10 flex items-center justify-between p-4 z-[5]">
-			<div className="text-zinc-700">Notes</div>
-			<button className="cursor-pointer"><CgMenuRight color="#7d7d7d" size="1.5em" /></button>
+			<div className="text-zinc-300">Notes</div>
+			<button className="cursor-pointer">
+				<CgMenuRight color="#7d7d7d" size="1.5em" />
+			</button>
 		</div>
 	);
 }
