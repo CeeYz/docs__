@@ -1,11 +1,11 @@
-import BG from "./components/bg";
+import BG from "./components/BG";
 import FG from "./components/FG";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 
 function App() {
 	return (
 		<div className="relative w-full h-screen bg-zinc-800">
-			<Nav />
+			<Header />
 			<BG />
 			<FG />
 		</div>

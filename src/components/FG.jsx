@@ -1,9 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Card from "./Card";
 
 function FG() {
 	const ref = useRef(null);
-	const data = [
+	const [data, setData] = useState([
 		{
 			desc: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
 			fileSize: "0.8 MB",
@@ -22,7 +22,7 @@ function FG() {
 			close: true,
 			tag: { isOpen: false, tagTitle: "Download", tagColor: "green" },
 		},
-	];
+	]);
 
 	return (
 		<>

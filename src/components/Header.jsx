@@ -2,7 +2,7 @@
 import { CgMenuRight } from "react-icons/cg";
 // import { FaHamburger } from "react-icons/fa";
 
-function Nav() {
+function Header() {
 	return (
 		<div className="bg-zinc-950/50 h-10 flex items-center justify-between p-4 z-[5]">
 			<div className="text-zinc-300">Notes</div>
@@ -13,4 +13,4 @@ function Nav() {
 	);
 }
 
-export default Nav;
+export default Header;
